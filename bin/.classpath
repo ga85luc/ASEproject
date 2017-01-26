@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path=""/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/org.restlet.ext.servlet.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/org.restlet.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
