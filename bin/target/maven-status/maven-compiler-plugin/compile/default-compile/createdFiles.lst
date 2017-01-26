@@ -1,8 +1,9 @@
-com\example\guestbook\SignGuestbookServlet.class
-src\main\java\com\example\guestbook\SendExGroups.class
-com\example\guestbook\Greeting.class
-src\main\java\com\example\guestbook\GetExGroups.class
-com\example\guestbook\Student.class
-com\example\guestbook\Guestbook.class
 com\example\guestbook\OfyHelper.class
-com\example\guestbook\Test.class
+src\main\java\com\example\guestbook\SendExGroups.class
+com\example\guestbook\SignGuestbookServlet.class
+com\example\guestbook\Greeting.class
+com\example\guestbook\Student.class
+src\main\java\com\example\guestbook\GetExGroups.class
+com\example\guestbook\UpdateStudent.class
+com\example\guestbook\Guestbook.class
+com\example\guestbook\RegisterStudent.class

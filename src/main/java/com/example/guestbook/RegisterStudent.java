@@ -53,21 +53,19 @@ public class RegisterStudent extends HttpServlet {
     	          .ancestor(theBook)    // Anyone in this book
     	          .list();
     	
-    	log.info("test123");
+    	//log.info("test123");
     	boolean studentFound = false;
     	for (Student s : students) {
-    		log.info(s.getMatrikelnummer());
+    		//log.info(s.getMatrikelnummer());
     		if(s.getMatrikelnummer().equals(matrikelNr)){
 				//student schon da
 				studentFound = true;
 				res.setStatus(208);
-		    	log.info("Found student");
-    	    	log.info(s.getMatrikelnummer() + " "+ matrikelNr);
+		    	//log.info("Found student");
+    	    	//log.info(s.getMatrikelnummer() + " "+ matrikelNr);
 			}
     		else{
-
-    	    	log.info("Did not find student");
-    	    	log.info(s.getMatrikelnummer() + " "+ matrikelNr);
+    			studentFound = false;
     		}
     	}
 		

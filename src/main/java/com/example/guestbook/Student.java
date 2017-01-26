@@ -53,4 +53,12 @@ public class Student {
 		AttendanceCtr = attendanceCtr;
 	}
 	
+	public int getAttendanceCtr() {
+		return AttendanceCtr;
+	}
+	
+	public String getGroupId() {
+		return GroupId;
+	}
+	
 }
