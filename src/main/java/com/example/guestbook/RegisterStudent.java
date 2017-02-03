@@ -44,7 +44,7 @@ public class RegisterStudent extends HttpServlet {
 		Student student = new Student (matrikelNr);
 		student.setGroupId(groupId);
 		student.setDate(new Date());
-		
+		student.setPresented("false");
 		// check if student is already registerd: load from DB to check if the MatNr is already registered.
 		Key<Guestbook> theBook=Key.create(Guestbook.class, "ASE");
     	List<Student> students = ObjectifyService.ofy()

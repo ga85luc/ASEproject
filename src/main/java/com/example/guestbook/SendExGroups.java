@@ -22,7 +22,7 @@ public class SendExGroups extends ServerResource {
     	String res;
     	res="<?xml version='1.0' encoding='UTF-8'?>\n";
     	res+="<exgroups>\n";
-    	Key<Guestbook> theBook=Key.create(Guestbook.class, "default");
+    	Key<Guestbook> theBook=Key.create(Guestbook.class, "ASE");
     	List<Greeting> greetings = ObjectifyService.ofy()
     	          .load()
     	          .type(Greeting.class) // We want only Greetings

@@ -54,6 +54,9 @@ public class UpdateStudent extends HttpServlet {
 				studentFound = true;
 				attendanceCounter = s.getAttendanceCtr();
 				groupId = s.getGroupId();
+				if(hasPresented == null){
+					hasPresented = s.getPresented();
+				}
 			} else {
 				studentFound = false;
 			}
